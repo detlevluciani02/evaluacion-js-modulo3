@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="text" id="n">
+    <button onclick="saludar()">Saludar</button>
+    <p id="r"></p>
+
+    <script>
+        function saludar() {
+            var nombre = document.getElementById("n").value;
+            document.getElementById("r").innerHTML = "Hola " + nombre;
+            alert("Si ves este mensaje, el script sí está funcionando.");
+        }
+    </script>
+</body>
+</html>
